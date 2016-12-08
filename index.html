@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+
+    <head>
+        <title>jQuery Lista de Pendientes</title>
+        <meta charset ="utf-8">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+        <link href="css/styles.css" rel="stylesheet">
+        
+        <!-- jQuery UI CSS -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" rel="stylesheet">
+    </head>
+    
+    <body>
+        
+        <div class="container" id="todoListWrapper">
+            <h1>jQuery Lista de Pendientes</h1>
+            
+            <div id="todoList">
+                <ul>
+                    <li class="listTitle">Lunes</li>
+                    <li class="addItem"><input type="text" placeholder="Agrega un pendiente..."></li>
+                </ul>
+                <ul>
+                    <li class="listTitle">Martes</li>
+                    <li class="addItem"><input type="text" placeholder="Agrega un pendiente..."></li>
+                </ul>
+                <ul>
+                    <li class="listTitle">Miércoles</li>
+                    <li class="addItem"><input type="text" placeholder="Agrega un pendiente..."></li>
+                </ul>
+                <ul>
+                    <li class="listTitle">Jueves</li>
+                    <li class="addItem"><input type="text" placeholder="Agrega un pendiente..."></li>
+                </ul>
+                <ul>
+                    <li class="listTitle">Viernes</li>
+                    <li class="addItem"><input type="text" placeholder="Agrega un pendiente..."></li>
+                </ul>
+                <ul>
+                    <li class="listTitle">Sábado</li>
+                    <li class="addItem"><input type="text" placeholder="Agrega un pendiente..."></li>
+                </ul>
+                <ul>
+                    <li class="listTitle">Domingo</li>
+                    <li class="addItem"><input type="text" placeholder="Agrega un pendiente..."></li>
+                </ul>
+            </div><!-- #todoList -->
+            
+        </div><!-- .container -->
+        
+        <div id="trash">Arrastra un elemento para borrarlo de la lista</div>
+        
+        <!-- Load the CDN first -->
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        
+        <!-- If CDN fails to load, serve up the local version -->
+        <script>window.jQuery || document.write('<script src="js/jquery-2.1.4.js"><\/script>');</script>
+        
+        <!-- jQuery UI -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+        
+        <script src="js/script.js"></script>
+    </body>
+    
+</html>
+
